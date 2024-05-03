@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67823b59-2f30-4135-b254-0b321ecb0315" name="Changes" comment="2024/5/1 22:51" />
+    <list default="true" id="67823b59-2f30-4135-b254-0b321ecb0315" name="Changes" comment="2024/5/1 23:01">
+      <change afterPath="$PROJECT_DIR$/example2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example.py" beforeDir="false" afterPath="$PROJECT_DIR$/example1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,9 +30,21 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;freyee&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/freyee/rizhaoProject.git&quot;,
+    &quot;accountId&quot;: &quot;ad85a695-48b4-4c22-a5f2-2bb581710088&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2frvT0Pqgo4DAtb2M5fQde5h2u7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -39,13 +56,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.example.executor": "Run",
+    "Python.example2.executor": "Run",
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="example" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="example1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="rizhaoProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -58,7 +77,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example.py" />
+      <option name="SCRIPT_NAME" value="D:\PycharmProjects\rizhaoProject\example1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,12 +127,21 @@
       <option name="project" value="LOCAL" />
       <updated>1714575313729</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2024/5/1 23:01">
+      <option name="closed" value="true" />
+      <created>1714575683996</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714575683996</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2024/5/1 22:49" />
     <MESSAGE value="2024/5/1 22:51" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024/5/1 22:51" />
+    <MESSAGE value="2024/5/1 23:01" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024/5/1 23:01" />
   </component>
 </project>

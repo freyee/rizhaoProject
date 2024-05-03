@@ -35,4 +35,3 @@ if __name__ == '__main__':
     # 简单画图显示
     plt.scatter(X, Y, c="blue")
     plt.plot(X_train, Y_predict, c="red")
-    plt.show()
