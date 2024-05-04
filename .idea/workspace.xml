@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67823b59-2f30-4135-b254-0b321ecb0315" name="Changes" comment="2024/5/3 23:06">
-      <change afterPath="$PROJECT_DIR$/Curvefitting13.py" afterDir="false" />
+    <list default="true" id="67823b59-2f30-4135-b254-0b321ecb0315" name="Changes" comment="2024/5/4 13:00">
+      <change afterPath="$PROJECT_DIR$/example3-rf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,16 +54,24 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Curvefitting13.executor": "Run",
+    "Python.Curvefitting39.executor": "Run",
     "Python.example.executor": "Run",
     "Python.example1.executor": "Run",
     "Python.example2.executor": "Run",
+    "Python.example3-rf.executor": "Run",
     "Python.example3.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/PycharmProjects/rizhaoProject",
     "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\rizhaoProject" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="example1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="rizhaoProject" />
@@ -144,7 +152,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714748828183</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2024/5/4 13:00">
+      <option name="closed" value="true" />
+      <created>1714798840373</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714798840373</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2024/5/4 13:00">
+      <option name="closed" value="true" />
+      <created>1714798862087</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714798862087</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -152,6 +176,7 @@
     <MESSAGE value="2024/5/1 22:51" />
     <MESSAGE value="2024/5/1 23:01" />
     <MESSAGE value="2024/5/3 23:06" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024/5/3 23:06" />
+    <MESSAGE value="2024/5/4 13:00" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024/5/4 13:00" />
   </component>
 </project>
