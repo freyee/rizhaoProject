@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67823b59-2f30-4135-b254-0b321ecb0315" name="Changes" comment="2024/5/4 13:00">
-      <change afterPath="$PROJECT_DIR$/example3-rf.py" afterDir="false" />
+    <list default="true" id="67823b59-2f30-4135-b254-0b321ecb0315" name="Changes" comment="2024/5/15 13:26">
+      <change afterPath="$PROJECT_DIR$/errorgraph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rizhaoProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rizhaoProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curvefitting39.py" beforeDir="false" afterPath="$PROJECT_DIR$/Curvefitting39.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multierrorgraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/multierrorgraph.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +38,12 @@
     &quot;assignee&quot;: &quot;freyee&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/freyee/rizhaoProject.git&quot;,
-    &quot;accountId&quot;: &quot;ad85a695-48b4-4c22-a5f2-2bb581710088&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/freyee/rizhaoProject.git",
+    "accountId": "d9450303-1f25-4def-9e7b-619aa3335f7b"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -55,20 +59,23 @@
   "keyToString": {
     "Python.Curvefitting13.executor": "Run",
     "Python.Curvefitting39.executor": "Run",
+    "Python.errorgraph.executor": "Run",
     "Python.example.executor": "Run",
     "Python.example1.executor": "Run",
     "Python.example2.executor": "Run",
     "Python.example3-rf.executor": "Run",
     "Python.example3.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.multierrorgraph.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/PycharmProjects/rizhaoProject",
-    "settings.editor.selected.configurable": "File.Encoding"
+    "git-widget-placeholder": "local",
+    "last_opened_file_path": "D:/PycharmProjects",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects" />
       <recent name="D:\PycharmProjects\rizhaoProject" />
     </key>
   </component>
@@ -168,7 +175,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714798862087</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2024/5/15 13:26">
+      <option name="closed" value="true" />
+      <created>1715750798423</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715750798423</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2024/5/15 13:26">
+      <option name="closed" value="true" />
+      <created>1715756287062</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715756287062</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -177,6 +200,7 @@
     <MESSAGE value="2024/5/1 23:01" />
     <MESSAGE value="2024/5/3 23:06" />
     <MESSAGE value="2024/5/4 13:00" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024/5/4 13:00" />
+    <MESSAGE value="2024/5/15 13:26" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024/5/15 13:26" />
   </component>
 </project>

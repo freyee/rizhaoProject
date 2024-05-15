@@ -22,7 +22,10 @@ group_size = 3
 
 # means = []
 # stds = []
-for i in range(0, 40, group_size):
+
+chuli={1,2,3,4,5,6,7,8,9,10,11,12,13}
+
+for i in chuli:
     means = []
     stds = []
     if i==3:
@@ -31,7 +34,7 @@ for i in range(0, 40, group_size):
     for column in column_names:
 
         data_column = df[column].values
-        group = data_column[i:i + group_size]
+        group = data_column[i*3:i*3 + group_size]
         means.append(np.mean(group))
         stds.append(np.std(group))
     means_stds.append({'Means': means, 'Stds': stds})
@@ -52,7 +55,7 @@ bar_width = 0.05  # 柱状图的宽度
 
 
 
-for i, (data, column) in enumerate(zip(means_stds, {1,2,3,4,5,6,7,8,9,10,11,12,13})):
+for i, (data, column) in enumerate(zip(means_stds, chuli)):
     # 调整x轴位置以便柱状图不重叠
     curr_x_pos = x_pos + i * bar_width
 
