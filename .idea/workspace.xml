@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67823b59-2f30-4135-b254-0b321ecb0315" name="Changes" comment="2024/5/4 13:00">
-      <change afterPath="$PROJECT_DIR$/example3-rf.py" afterDir="false" />
+    <list default="true" id="67823b59-2f30-4135-b254-0b321ecb0315" name="Changes" comment="2024/5/15 13:26">
+      <change afterPath="$PROJECT_DIR$/monitor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multierrorgraph2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multierrorgraphsleep.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curvefitting13.py" beforeDir="false" afterPath="$PROJECT_DIR$/Curvefitting13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curvefitting39.py" beforeDir="false" afterPath="$PROJECT_DIR$/Curvefitting39.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="local" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,7 +41,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/freyee/rizhaoProject.git&quot;,
-    &quot;accountId&quot;: &quot;ad85a695-48b4-4c22-a5f2-2bb581710088&quot;
+    &quot;accountId&quot;: &quot;d9450303-1f25-4def-9e7b-619aa3335f7b&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -51,24 +55,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Curvefitting13.executor": "Run",
-    "Python.Curvefitting39.executor": "Run",
-    "Python.example.executor": "Run",
-    "Python.example1.executor": "Run",
-    "Python.example2.executor": "Run",
-    "Python.example3-rf.executor": "Run",
-    "Python.example3.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/PycharmProjects/rizhaoProject",
-    "settings.editor.selected.configurable": "File.Encoding"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Curvefitting13.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Curvefitting39.executor&quot;: &quot;Run&quot;,
+    &quot;Python.errorgraph.executor&quot;: &quot;Run&quot;,
+    &quot;Python.example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.example1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.example2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.example3-rf.executor&quot;: &quot;Run&quot;,
+    &quot;Python.example3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.monitor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.multierrorgraph.executor&quot;: &quot;Run&quot;,
+    &quot;Python.multierrorgraph2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.multierrorgraphsleep.executor&quot;: &quot;Run&quot;,
+    &quot;Python.watchdog.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;example&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/PycharmProjects&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects" />
       <recent name="D:\PycharmProjects\rizhaoProject" />
     </key>
   </component>
@@ -168,7 +179,31 @@
       <option name="project" value="LOCAL" />
       <updated>1714798862087</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2024/5/15 13:26">
+      <option name="closed" value="true" />
+      <created>1715750798423</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715750798423</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2024/5/15 13:26">
+      <option name="closed" value="true" />
+      <created>1715756287062</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715756287062</updated>
+    </task>
+    <task id="LOCAL-00010" summary="2024/5/15 13:26">
+      <option name="closed" value="true" />
+      <created>1715758126741</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715758126741</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -177,6 +212,7 @@
     <MESSAGE value="2024/5/1 23:01" />
     <MESSAGE value="2024/5/3 23:06" />
     <MESSAGE value="2024/5/4 13:00" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024/5/4 13:00" />
+    <MESSAGE value="2024/5/15 13:26" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024/5/15 13:26" />
   </component>
 </project>

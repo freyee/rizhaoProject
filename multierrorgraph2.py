@@ -3,10 +3,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # 假设您的Excel文件包含列名'Column1', 'Column2', 'Column3'等
-column_names = ['硝态氮5/31', '硝态氮6/2']  # 替换为您的列名列表
+column_names = ['硝态氮5/31', '硝态氮6/2','硝态氮6/7','硝态氮6/9','硝态氮6/14','硝态氮6/16']  # 替换为您的列名列表
 
 # 读取Excel文件
-df = pd.read_excel('C:/Users/15267/Desktop/paper/rizhao/newdocument/原始数据24-5-15-12-30.xlsx', sheet_name='Sheet1')  # 替换为您的文件路径和工作表名
+df = pd.read_excel('C:/Users/15267/Desktop/paper/rizhao/newdocument/试验 的副本.xlsx', sheet_name='Sheet2')  # 替换为您的文件路径和工作表名
 
 # 初始化一个列表来存储每列的均值和标准差
 means_stds = []
@@ -23,18 +23,24 @@ group_size = 3
 # means = []
 # stds = []
 
-chuli={1,2,3,4,5,6,7,8,9,10,11,12,13}
+dict1={'S1K0N3':0, 'S1K1N3':2,'S1K2N3':3, 'S1K3N3':4, 'S1K4N3':5, 'S2K2N3':6, 'S1K1N2':7, 'S1K2N2':8, 'S1K4N2':9, 'S1K3N0':10, 'S1K3N1':11, 'S1K3N2':12, 'S1K3N4':13}
+chuli={0,1,2,3,4,5,6,7,8,9,10,11,12}
 
 for i in chuli:
     means = []
     stds = []
-    if i==3:
-        continue
+
 
     for column in column_names:
+        num=3
+        if column == '硝态氮6/21':
+            num=2
+        if column == '硝态氮6/23':
+            num = 2
+
 
         data_column = df[column].values
-        group = data_column[i*3:i*3 + group_size]
+        group = data_column[i*3:i*3 + num]
         means.append(np.mean(group))
         stds.append(np.std(group))
     means_stds.append({'Means': means, 'Stds': stds})
@@ -60,8 +66,7 @@ for i, (data, column) in enumerate(zip(means_stds, chuli)):
     curr_x_pos = x_pos + i * bar_width
 
     # 绘制柱状图
-    plt.bar(curr_x_pos, data['Means'], bar_width, label=column)
-
+    plt.bar(curr_x_pos, data['Means'], bar_width, label=column+1)
     # 绘制误差线
     plt.errorbar(curr_x_pos, data['Means'], yerr=data['Stds'], fmt='none', ecolor='red', capsize=5)
 
