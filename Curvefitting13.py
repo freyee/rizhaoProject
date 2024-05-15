@@ -35,7 +35,7 @@ def fit_and_plot(df, x_column, y_column, ax, title_suffix=''):
 
 # 主函数
 if __name__ == '__main__':
-    df = pd.read_excel('data13.xlsx')
+    df = pd.read_excel('C:/Users/15267/Desktop/paper/rizhao/newdocument/data13.xlsx')
 
     # 定义需要拟合的列
     x_columns = ['铵态氮','速效钾','硝态氮','有效磷']

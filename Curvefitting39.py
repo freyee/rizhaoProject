@@ -38,11 +38,12 @@ def fit_and_plot(df, x_column, y_column, ax, title_suffix=''):
 
 # 主函数
 if __name__ == '__main__':
-    df = pd.read_excel('data39.xlsx')
+    df = pd.read_excel('C:/Users/15267/Desktop/paper/rizhao/newdocument/试验.xlsx', sheet_name='Sheet2')
 
     # 定义需要拟合的列
-    x_columns = ['铵态氮','速效钾','硝态氮','有效磷','总产量', '平均产量','平均个数','平均单株结果数','株高','茎粗','小区开花数','TOC','TON']
-    y_columns = ['铵态氮','速效钾','硝态氮','有效磷','总产量', '平均产量','平均个数','平均单株结果数','株高','茎粗','小区开花数','TOC','TON']
+    print(df.columns)
+    x_columns = ['平均值_硝态氮5/31','硝态氮6/2']
+    y_columns = ['灌水量m3','总产量']
 
     # 创建图形
     fig, axs = plt.subplots(nrows=len(x_columns), ncols=len(y_columns), figsize=(12 * len(y_columns), 48))
@@ -63,5 +64,5 @@ if __name__ == '__main__':
     timestamp = datetime.datetime.now()
     formatted_timestamp = timestamp.strftime('%Y_%m_%d_%H-%M-%S').replace(':', '_')
 
-    plt.savefig(os.path.join("graph",f'Curvefitting39_({formatted_timestamp}).png'))
+    # plt.savefig(os.path.join("graph",f'Curvefitting39_({formatted_timestamp}).png'))
     plt.show()
