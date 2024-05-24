@@ -17,7 +17,7 @@ class ExcelFileHandler(FileSystemEventHandler):
 
 if __name__ == "__main__":
     path_to_watch = "C:/Users/15267/Desktop/paper/rizhao/newdocument/"  # 替换为你想要监视的目录路径
-    python_script_to_run = "multierrorgraph2.py"  # 替换为要运行的Python脚本路径
+    python_script_to_run = "graph.py"  # 替换为要运行的Python脚本路径
 
     event_handler = ExcelFileHandler(python_script_to_run)
     observer = Observer()
